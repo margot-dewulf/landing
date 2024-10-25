@@ -1,0 +1,21 @@
+.btn-blue {
+   background-color: #BFEFFF; 
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-blue {
+    background-color: #ADD8E6; /* Exemple de bleu clair */
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px; /* Ajoute de l'espace au-dessus du bouton */
+}
+
