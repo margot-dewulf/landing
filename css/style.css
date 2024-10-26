@@ -1,0 +1,85 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+@media (max-width: 960px) {
+    
+    .container {
+        width: 700px; /* Peut être redondant, vous pourriez envisager de le supprimer */
+    }
+}
+
+@media (max-width: 720px) {
+    /* For screens < 720px */
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    /* For screens < 540px */
+    .container {
+        width: 300px;
+    }
+
+
+
+body {
+    background: rgb(230, 230, 230);
+    color: rgb(50, 50, 50);
+    font-family: handwriting;
+    font-size: 17px;
+}
+
+.banner {
+    background-color: #6B72E1; /* Couleur de fond pour la bannière */
+    color: white;
+    padding: 50px 0; /* Espacement pour la bannière */
+    text-align: center; /* Centrer le texte */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Centre le conteneur */
+    padding: 20px;
+    background-color: white; /* Fond blanc pour le conteneur */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    margin: 20px 0;
+    border: 1px solid #ddd; /* Bordure légère */
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-blue {
+    background-color: #800080; 
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px; 
+    text-decoration: none; /* Supprime le soulignement */
+    display: inline-block; /* Pour un meilleur alignement */
+}
+
+.btn-blue:hover {
+    background-color: #6B72E1; /* Change la couleur au survol */
+}
+
+
